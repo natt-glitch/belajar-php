@@ -1,0 +1,15 @@
+<?php
+echo "Masukkan nama bangun \t: ";
+$bangun = trim(fgets(STDIN));
+echo "Masukkan luas \t: ";
+$luas = trim(fgets(STDIN));
+echo "Masukkan tinggi \t: ";
+$tinggi = trim(fgets(STDIN));
+
+if ($nilai >= 80) {
+    echo "Selamat $nama anda lulus 😁😉";
+}
+else{
+    echo "Selamat $nama kamu sudah berusaha, kembali lagi lain waktu 😥😔";
+}
+?>
