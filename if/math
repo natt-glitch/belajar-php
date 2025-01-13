@@ -1,6 +1,6 @@
 <?php
 echo "Masukkan nama bangun \t: ";
-$bangun = trim(fgets(STDIN));
+$bangun   = trim(fgets(STDIN));
 echo "Masukkan luas \t: ";
 $luas = trim(fgets(STDIN));
 echo "Masukkan tinggi \t: ";
