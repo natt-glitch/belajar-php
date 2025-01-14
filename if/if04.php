@@ -5,6 +5,9 @@ $nilai = trim(fgets(STDIN));
 if ($nilai <= 0) {
     echo "Maaf anda belum mengikuti ujian";
 }
+elseif ($nilai <= 10) {
+    echo "Minimal nilai itu 20 ya dek 🚴‍♀️";
+}
 elseif ($nilai < 60) {
     echo "Nilai : $nilai\n";
     echo "Grade : E";

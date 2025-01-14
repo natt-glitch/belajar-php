@@ -22,5 +22,4 @@ switch($hari){
     case 6:
         echo "Sabtu"; break;
 }
-
 ?>
